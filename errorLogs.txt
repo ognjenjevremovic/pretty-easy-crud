@@ -18,3 +18,162 @@
 
 
 
+                       Date: 13.12.2016 - Time: 9:5:35
+
+                       = > name : MongoError
+                       = > message : failed to connect to server [localhost:27017] on first connect
+
+
+
+                       Date: 13.12.2016 - Time: 9:29:32
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:30:32
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:30:38
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:31:16
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:31:19
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:31:21
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:31:29
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:31:31
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:32:13
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:32:14
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:32:23
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 9:32:26
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 10:17:9
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 10:38:37
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 10:39:13
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 13:56:33
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 14:8:52
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 14:15:23
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+
+                       Date: 13.12.2016 - Time: 14:16:43
+
+                       = > Invalid collection supplied to the constructor
+                       = >       - - - - -
+                       = > Collection supplied is not not a valid MongoDB collection
+
+
+

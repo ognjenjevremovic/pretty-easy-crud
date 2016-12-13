@@ -5,7 +5,7 @@ var CRUD        =   require('./index'),
 
 
 var errLog  =   new Logger(0),
-    infoLog =   new Logger({mode: 'info'});
+    infoLog =   new Logger({mode: 'info', includeTime : true});
 
 //  Connect to the database
 MongoClient.connect('mongodb://localhost:27017/test', connection);
@@ -15,18 +15,23 @@ function connection(err, db) {
 
 
     //  init
-    var collection;
+    var collection,
+        _crudSettings = {
+            info : true,
+            warn : true,
+            scs  : true
+        };
+
 
     //  Error connecting to database
     if (err) {
         errLog(err);
         return;
     }
-    infoLog('Successfuly connected to ' + db.s.databaseName + ' database.');
 
     //  Set collection
     collection =    db.collection('testCol');
 
     //  Crud instance
-    var testCollection =    new CRUD(collection, 'info');
+    var testCollection =    new CRUD(collection, {includeLogs : true});
 }
