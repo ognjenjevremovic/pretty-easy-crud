@@ -10,6 +10,7 @@ var errLog  =   new Logger(0),
 //  Connect to the database
 MongoClient.connect('mongodb://localhost:27017/test', connection);
 
+
 function connection(err, db) {
     'use strict';
 
@@ -26,7 +27,7 @@ function connection(err, db) {
     //  Error connecting to database
     if (err) {
         errLog(err);
-        return;
+        throw new Error('\n => Error connecting to database \n'.red);
     }
 
     //  Set collection
@@ -34,4 +35,5 @@ function connection(err, db) {
 
     //  Crud instance
     var testCollection =    new CRUD(collection, {includeLogs : true});
+
 }
