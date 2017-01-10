@@ -1,0 +1,56 @@
+{
+    "error" : {
+        "noCollection" : {
+            "constructor" : {
+                "head" : "Collection not provided to a constructor",
+                "moreInfo" : [
+                    "You must include the collection in the CRUD method performed on the instance (as a parameter)",
+                    "in order to succesfuly perform a CRUD action."
+                ]
+            },
+            "method" : {
+                "head" : "Collection not provided to a CRUD method",
+                "moreInfo" : [
+                    "The collection object was not set on the constructor",
+                    "nor it was passed to the CRUD method",
+                    "the action can not be performed!"
+                ]
+            }
+        },
+        "invalidCollection" : {
+            "constructor" : {
+                "head" : "Invalid collection supplied to the constructor",
+                "moreInfo" : [
+                    "Collection set on the constructor",
+                    "is not not a valid MongoDB collection."
+                ]
+            },
+            "method" : {
+                "head" : "Invalid collection supplied to the method",
+                "moreInfo" : [
+                    "Collection supplied to the CRUD method",
+                    "is not not a valid MongoDB collection."
+                ]
+            }
+        }
+    },
+    "warn" : {
+        "multipleCollections" : {
+            "head" : "Multiple collections supplied",
+            "moreInfo" : [
+                "The collection is already set on the constructor.",
+                "The constructor instance collection, will be overwritten",
+                "by the collection supplied to the CRUD method."
+            ]
+        }
+    },
+    "info" : {
+        "validCollection" : {
+            "head" : "Connection established",
+            "moreInfo" : [
+                "Successfuly connected to the collection -> "
+            ],
+            "requiresParam" : true
+        }
+    }
+}

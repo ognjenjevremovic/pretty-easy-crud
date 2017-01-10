@@ -1,0 +1,47 @@
+{
+    "error" : {
+        "insertingDocument" : {
+            "duplicateKey" : {
+                "head" : "Error inserting the document",
+                "moreInfo" : [
+                    "Document was NOT inserted into specified collection.",
+                    "Document with the same unique field value, already exist in the collection",
+                    "(possible _id field value conflict)."
+                ]
+            },
+            "native" : {
+                "head" : "Error inserting the document",
+                "moreInfo" : [
+                    "There was an error inserting the document into collection, caused by the MongoDB driver.",
+                    "This is a native MongoDB driver error and is not caused by the module",
+                    "(possible error in establishing the connection with the database)"
+                ]
+            }
+        },
+        "constructingDocument" : {
+            "unallowedType" : {
+                "head" : "Invalid document type",
+                "moreInfo" : [
+                    "Document can NOT be in a type of -> "
+                ],
+                "requiresParam" : true
+            },
+            "unallowedValue" : {
+                "head" : "Invalid document value",
+                "moreInfo" : [
+                    "Document can NOT be of the value -> "
+                ],
+                "requiresParam" : true
+            }
+        }
+    },
+    "info" : {
+        "documentInserted" : {
+            "head" : "Document inserted successfuly",
+            "moreInfo" : [
+                "Document successfuly inserted into collection -> "
+            ],
+            "requiresParam" : true
+        }
+    }
+}
