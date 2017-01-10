@@ -7,7 +7,8 @@
                     "Document was NOT inserted into specified collection.",
                     "Document with the same unique field value, already exist in the collection",
                     "(possible _id field value conflict)."
-                ]
+                ],
+                "type" : "error"
             },
             "native" : {
                 "head" : "Error inserting the document",
@@ -15,7 +16,8 @@
                     "There was an error inserting the document into collection, caused by the MongoDB driver.",
                     "This is a native MongoDB driver error and is not caused by the module",
                     "(possible error in establishing the connection with the database)"
-                ]
+                ],
+                "type" : "error"
             }
         },
         "constructingDocument" : {
@@ -24,6 +26,7 @@
                 "moreInfo" : [
                     "Document can NOT be in a type of -> "
                 ],
+                "type" : "warn",
                 "requiresParam" : true
             },
             "unallowedValue" : {
@@ -31,6 +34,7 @@
                 "moreInfo" : [
                     "Document can NOT be of the value -> "
                 ],
+                "type" : "warn",
                 "requiresParam" : true
             }
         }
@@ -41,6 +45,7 @@
             "moreInfo" : [
                 "Document successfuly inserted into collection -> "
             ],
+            "type" : "info",
             "requiresParam" : true
         }
     }
