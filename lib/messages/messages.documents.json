@@ -37,6 +37,24 @@
                 "type" : "warn",
                 "requiresParam" : true
             }
+        },
+        "constructingQuery" : {
+            "unallowedType" : {
+                "head" : "Invalid query type",
+                "moreInfo" : [
+                    "Query can NOT be in a type of -> "
+                ],
+                "type" : "warn",
+                "requiresParam" : true
+            },
+            "unallowedValue" : {
+                "head" : "Invalid query value",
+                "moreInfo" : [
+                    "Query can NOT be of the value -> "
+                ],
+                "type" : "warn",
+                "requiresParam" : true
+            }
         }
     },
     "info" : {
@@ -44,6 +62,14 @@
             "head" : "Document inserted successfuly",
             "moreInfo" : [
                 "Document successfuly inserted into collection -> "
+            ],
+            "type" : "info",
+            "requiresParam" : true
+        },
+        "documentsFound" : {
+            "head" : "Query successfuly performed on the collection",
+            "moreInfo" : [
+                "Number of records found matching the query -> "
             ],
             "type" : "info",
             "requiresParam" : true

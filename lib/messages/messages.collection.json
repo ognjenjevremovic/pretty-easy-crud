@@ -28,6 +28,15 @@
                 ],
                 "type" : "error"
             }
+        },
+        "queryingCollection" : {
+            "head" : "Error querying the collection",
+            "moreInfo" : [
+                "There was an error querying the collection.",
+                "This is a native MongoDB driver error and is not caused by the module",
+                "(possible error in establishing the connection with the database)"
+            ],
+            "type" : "error"
         }
     },
     "warn" : {
