@@ -55,6 +55,15 @@
                 "type" : "warn",
                 "requiresParam" : true
             }
+        },
+        "deletingDocuments" : {
+            "head" : "Error removing document(s) from the collection",
+            "moreInfo" : [
+                "There was an error removing the document from the collection, caused by the MongoDB driver.",
+                "This is a native MongoDB driver error and is not caused by the module",
+                "(possible error in establishing the connection with the database)."
+            ],
+            "type" : "error"
         }
     },
     "info" : {
@@ -73,6 +82,32 @@
             ],
             "type" : "info",
             "requiresParam" : true
+        },
+        "documentsRemoved" : {
+            "none" : {
+                "head" : "Remove operation successfuly performed on the collection",
+                "moreInfo" : [
+                    "There were no records matching the supplied query.",
+                    "No documents have been removed from the database."
+                ],
+                "type" : "info"
+            },
+            "single" : {
+                "head" : "Remove operation successfuly performed on the collection",
+                "moreInfo" : [
+                    "Record successfuly removed from the collection -> "
+                ],
+                "type" : "info",
+                "requiresParam" : true
+            },
+            "many" : {
+                "head" : "Remove operation successfuly performed on the collection",
+                "moreInfo" : [
+                    "Number of records removed from the collection -> "
+                ],
+                "type" : "info",
+                "requiresParam" : true
+            }
         }
     }
 }

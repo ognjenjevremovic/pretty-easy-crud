@@ -48,16 +48,18 @@ function connection(err, db) {
 
     //  2.  Query the collection
         //  2.1 Query the collection with callback
-    
+
     database
         .find({"dateCreated.human.date" : '16.1.2017'}, CRUD_cb);
 
         //  2.2 Query the collection without callback
-
     /*
     database
         .find({"dateCreated.human.date" : '16.1.2017'});
     */
+
+    database
+        .remove('Ognjen', CRUD_cb);
 
     //  CRUD method callback
     function CRUD_cb(err, value) {
