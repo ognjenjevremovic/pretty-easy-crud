@@ -30,36 +30,11 @@ function connection(err, db) {
     //  Crud instance
     var database =  Mongo_CRUD(configuration, collection);
 
-    //  1.  Add documents
-        //  1.1 Adding document with callback
-    /*
+    //  1.  Add document
     database
-        .add('Ognjen',  CRUD_cb)
-        .add('Uros',    CRUD_cb)
-        .add('Jasmina', CRUD_cb);
-    */
-        //  1.2 Adding document without callback
-    /*
-    database
-        .add('Ognjen')
-        .add('Uros')
-        .add('Jasmina');
-    */
-
-    //  2.  Query the collection
-        //  2.1 Query the collection with callback
-
-    database
-        .find({"dateCreated.human.date" : '16.1.2017'}, CRUD_cb);
-
-        //  2.2 Query the collection without callback
-    /*
-    database
-        .find({"dateCreated.human.date" : '16.1.2017'});
-    */
-
-    database
-        .remove('Ognjen', CRUD_cb);
+        .add('Ognjen',      CRUD_cb)
+        .find('Ognjen',     CRUD_cb)
+        .remove('Ognjen',   CRUD_cb);
 
     //  CRUD method callback
     function CRUD_cb(err, value) {
