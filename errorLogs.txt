@@ -1,0 +1,80 @@
+                       Date: 11.1.2017 - Time: 13:10:7
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:10:21
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:10:30
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:10:52
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:15:26
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:16:15
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:16:55
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
+                       Date: 11.1.2017 - Time: 13:17:5
+
+                       = > Error inserting the document
+                       = >       - - - - -
+                       = > There was an error inserting the document into collection, caused by the MongoDB driver.
+                       = > This is a native MongoDB driver error and is not caused by the module
+                       = > (possible error in establishing the connection with the database)
+
+
+
